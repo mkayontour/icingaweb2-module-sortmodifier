@@ -52,10 +52,10 @@ class PropertyModifierSort extends PropertyModifierHook
         if ($value === null) {
             return null;
         }
-        if ($order == "asc") {
-            asort($value);
-	} else {
-            rsort($value);
+
+        if ($order == "desc") {
+            natcasesort($value);
+	    $value = array_reverse($value);
 	}
 
         return $value;
