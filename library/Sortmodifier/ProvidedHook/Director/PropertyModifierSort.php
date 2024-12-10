@@ -53,7 +53,7 @@ class PropertyModifierSort extends PropertyModifierHook
             return null;
         }
 
-        if ($order == "desc") {
+        if ($order === "desc") {
             natcasesort($value);
 	    $value = array_reverse($value);
 	}
