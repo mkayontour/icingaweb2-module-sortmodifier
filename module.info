@@ -1,3 +1,6 @@
 Name: SortModifier
-Version: 0.0.1
+Version: 1.0.0
 Description: Provides a import source modifier to sort arrays in specific order.
+Requires:
+  Modules: director
+
