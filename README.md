@@ -1,6 +1,6 @@
 # Icingaweb2 Module sortmodifier
 
-This module is a module to provide a sort function for arrays. 
+This module provides a sort function for arrays in your director imports. 
 
 ## Installation
 Add the sortmodifier module to one of the defined icingaweb2 module paths.
